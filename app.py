@@ -21,7 +21,7 @@ if user_input:
     with st.chat_message("user"):
         st.markdown(user_input)
     
-    api_url = f"https://4ce8-34-123-181-84.ngrok-free.app/predict/?query={user_input}"  # Replace with actual API URL
+    api_url = f"https://27f5-34-123-181-84.ngrok-free.app/predict/?query={user_input}"  # Replace with actual API URL
 
     # **✅ Synchronous request instead of `await requests.post()`**
     try:
